@@ -1,0 +1,20 @@
+h1 {
+	padding: 10px;
+}
+
+h2 {
+	padding: 10px;
+}
+
+h3 {
+	padding: 10px;
+	font-weight: bold;
+}
+
+button {
+	padding: 10px;
+}
+
+.row {
+	padding: 15px;
+}

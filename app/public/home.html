@@ -9,9 +9,12 @@
 	<!-- Optional theme -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
 
-	<link rel="stylesheet" type="text/css" href="reset.css">
+	<link rel="stylesheet" type="text/css" href="/public/reset.css">
 
-	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="/public/style.css">
+
+	<script src="/public/logic.js"></script>
+
 </head>
 <body>
 
@@ -19,7 +22,11 @@
 
 	<div class="jumbotron bg-primary text-center">
 		<h1>Welcome to Friend Finder!</h1>
+		<div class = row>
 		<h2>Complete a quick survey to get matched with new friends!</h2>
-		<button type="button" class="btn btn-success">Enter Survey</button>
+		</div>
+		<div class = row>
+		<button type="button" class="btn btn-success" id = "enter-survey">Enter Survey</button>
+		</div>
 	</div>
 </div>
